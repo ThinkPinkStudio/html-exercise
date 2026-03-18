@@ -1,3 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid purple;
+    background-color: rgb(221, 121, 221); 
+    border-radius: 5px;
+}
+h1 {
+    color: black;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding: 10px;
+    border: 5px solid purple;
+    display: inline-block;
+}
+nav{
+    background-color: rgb(221, 121, 221);
+    border: 2px solid purple;
+    padding: 10px;
+    text-align: end;
+    border-radius: 20px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: rgb(221, 121, 221);
+    color: white;
+}
+footer{
+    background-color: rgb(221, 121, 221);
+    border: 2px solid purple;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;    
+}
+section{
+    background-color: rgb(175, 64, 175);
+    border: 2px solid purple;
+    padding: 10px;
+    margin-top: 20px;
+    border: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    color: rgb(229, 234, 238);
+    
+}
+
+#home{
+    background-color: rgb(170, 40, 170);
+    color: black;
+   
+    border-radius: 5px;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 20px;
+}
+#home a{
+    color: black;
+    text-decoration: none;
+}
+#home a:hover{
+    color: white;
+}       
+#about{
+    background-color: rgb(236, 176, 236);
+    color: black;
+    
+    border-radius: 5px;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 20px;
+}                                       
+#about a{
+    color: black;
+    text-decoration: none;
+}
+#about a:hover{
+    color: white;
+}
+#contact{
+    background-color: rgb(221, 121, 221);
+    color: black;
+    
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 20px;
+    justify-content: center;
+}
+#contact a{
+    color: black;
+    text-decoration: none;
+}       
+#contact a:hover{
+    color: white;
+}
+#abdulRahman{
+    background-color: rgb(221, 121, 221);
+    border: 2px solid purple;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#esther{
+    background-color: rgb(221, 121, 221);
+    border: 2px solid purple;
+    padding: 10px;                  
+
+    margin-top: 20px;
+    border-radius: 20px;
+}   
 /* Basic style.css */
 * { 
     margin: 0;
